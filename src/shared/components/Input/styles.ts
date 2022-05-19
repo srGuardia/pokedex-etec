@@ -7,7 +7,6 @@ export const Container = styled.input`
 	padding: 1rem;
 	font-size: 1rem;
 	font-weight: 400;
-	border-radius: 1rem;
 	transition: all 0.7s;
 
 	&:hover,

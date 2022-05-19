@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import layoutGlobal from '../styles/layoutGlobal';
 
 export const GlobalLayout = createGlobalStyle`
 * {
@@ -19,11 +18,6 @@ html, body, #root {
 #root {
 	display: flex;
 	flex-direction: column;
-	/* grid-template-areas: '${layoutGlobal.HEADER} ${layoutGlobal.HEADER} ${layoutGlobal.HEADER}'
-						 '${layoutGlobal.MAIN} ${layoutGlobal.MAIN} ${layoutGlobal.MAIN}'
-						 '${layoutGlobal.FOOTER} ${layoutGlobal.FOOTER} ${layoutGlobal.FOOTER}';
-	grid-template-columns: .5fr 2fr;
-	grid-template-rows: 25vh 70vh; */
 }
 
 a {

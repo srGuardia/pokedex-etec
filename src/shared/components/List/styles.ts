@@ -18,6 +18,7 @@ export const Content = styled.li`
 	overflow: hidden;
 	border-bottom-left-radius: 6rem;
 	transition: all 0.7s;
+	position: relative;
 
 	&:hover {
 		transform: scale(1.1);
@@ -85,6 +86,7 @@ export const ItemsContainer = styled.a<StyledProps>`
 
 	img {
 		width: 50%;
+		height: 50%;
 	}
 `;
 

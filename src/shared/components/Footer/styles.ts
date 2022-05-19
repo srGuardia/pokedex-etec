@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-	/* grid-area: FOOTER; */
 	font-style: italic;
 	background-color: #000;
 	color: #fff;
