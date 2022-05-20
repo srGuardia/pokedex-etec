@@ -14,7 +14,7 @@ function App() {
 	let [page, setPage] = useState(0);
 	const [pokemons, setPokemons] = useState<PokemonData[] | []>([]);
 
-	async function getPokemons() {
+	const getPokemons = async () => {
 		try {
 			const { data } = await api.allPokemons(page);
 
@@ -29,7 +29,7 @@ function App() {
 		} catch (error: any) {
 			return toast.error(error.message);
 		}
-	}
+	};
 
 	useEffect(() => {
 		Aos.init();
