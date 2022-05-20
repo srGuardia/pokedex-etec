@@ -1,5 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import colorsGlobal from '../../global/styles/colorsGlobal';
+
+const rotate = keyframes`
+0% {
+	transform: rotate(0deg);
+}
+
+100% {
+	transform: rotate(360deg);
+}
+`;
 
 export const Container = styled.header`
 	background-color: #000000;
@@ -32,6 +42,10 @@ export const Actions = styled.div`
 		svg {
 			color: ${colorsGlobal.orange};
 			font-size: 3rem;
+
+			&:active {
+				animation: ${rotate} 0.7s normal;
+			}
 		}
 	}
 

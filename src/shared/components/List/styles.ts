@@ -88,6 +88,14 @@ export const ItemsContainer = styled.a<StyledProps>`
 		width: 50%;
 		height: 50%;
 	}
+
+	@media (max-width: 375px) {
+		width: 18rem;
+
+		h1 {
+			font-size: 1.6rem;
+		}
+	}
 `;
 
 export const TypesContainer = styled.div`
