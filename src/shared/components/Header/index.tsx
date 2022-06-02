@@ -18,7 +18,7 @@ export const Header = ({
   themeName,
 }: HeaderProps) => (
   <Container>
-    <img data-aos='zoom-in' src={logo} loading='lazy' />
+    <img data-aos='zoom-in' src={logo} loading='lazy' alt='Logo Pokemon' />
 
     <Actions>
       <Input type='search' placeholder='Search...' />

@@ -19,7 +19,11 @@ export const List = ({ data }: ListProps) => {
         .sort((a, b) => a.id - b.id)
         .map((pokemon, index) => (
           <Content key={index}>
-            <ItemsContainer type={pokemon.types[0].type.name}>
+            <ItemsContainer
+              type={pokemon.types[0].type.name}
+              href='#'
+              referrerPolicy='no-referrer'
+            >
               <img
                 loading='lazy'
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg`}

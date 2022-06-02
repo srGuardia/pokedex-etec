@@ -78,10 +78,14 @@ export const ItemsContainer = styled.a<StyledProps>`
         background-color: ${colorsGlobal.brown};
       `)}
 
+  h1 {
+    color: ${colorsGlobal.black};
+  }
+
   strong {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    color: ${colorsGlobal.gray};
+    color: ${colorsGlobal.white};
   }
 
   img {
@@ -119,6 +123,7 @@ export const TextType = styled.span<StyledProps>`
   padding: 0.5rem;
   border-bottom-left-radius: 1rem;
   background-color: ${colorsGlobal.grayLight};
+  color: ${colorsGlobal.black};
   text-align: center;
   font-weight: bold;
   font-size: 0.8rem;

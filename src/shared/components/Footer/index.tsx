@@ -2,8 +2,8 @@ import { FooterWrapper } from './styles'
 
 export const Footer = () => (
   <FooterWrapper>
-    <h3>
+    <strong>
       Create by <span>Breno Guardia</span>
-    </h3>
+    </strong>
   </FooterWrapper>
 )
