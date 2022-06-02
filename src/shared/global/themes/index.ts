@@ -9,7 +9,7 @@ export const themes = {
   },
   light: {
     colors: {
-      background: colorsGlobal.yellow,
+      background: colorsGlobal.yellow_900,
       text: colorsGlobal.black,
     },
   },
