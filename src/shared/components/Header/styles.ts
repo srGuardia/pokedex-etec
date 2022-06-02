@@ -41,13 +41,13 @@ export const Actions = styled.div`
     &:last-child {
       font-size: 2rem;
 
-      &:active {
+      &:hover {
         animation: none;
       }
     }
 
-    &:active {
-      animation: ${rotate} 0.5s linear;
+    &:hover {
+      animation: ${rotate} 1s linear;
     }
   }
 
