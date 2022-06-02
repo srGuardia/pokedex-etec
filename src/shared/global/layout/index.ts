@@ -1,31 +1,30 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalLayout = createGlobalStyle`
 * {
-	margin: 0;
-	padding: 0;
-	outline: none;
-	box-sizing: border-box;
-	font-family: 'Raleway', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
 html, body, #root {
-	width: 100vw;
-	height: 100vh;
-	background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  background-color: ${({ theme }) => theme.colors.background};
 }
 
 #root {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
-
-`;
+`

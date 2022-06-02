@@ -1,10 +1,10 @@
-import { ReactNode } from 'react';
-import { MainWrapper } from './styles';
+import { ReactNode } from 'react'
+import { MainWrapper } from './styles'
 
 type MainProps = {
-	children: ReactNode;
-};
+  children: ReactNode
+}
 
 export const Main = ({ children }: MainProps) => (
-	<MainWrapper>{children}</MainWrapper>
-);
+  <MainWrapper>{children}</MainWrapper>
+)
