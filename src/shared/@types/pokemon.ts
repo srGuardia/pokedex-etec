@@ -1,27 +1,27 @@
 type PokemonTypes = {
   type: {
-    name: string
-  }
-}
+    name: string;
+  };
+};
 
 type PokemonStats = {
-  base_stat: number
+  base_stat: number;
   stat: {
-    name: string
-  }
-}
+    name: string;
+  };
+};
 
 export type PokemonData = {
-  id: number
-  name: string
+  id: number;
+  name: string;
   sprites: {
-    front_default: string
+    front_default: string;
     other: {
       dream_world: {
-        front_default: string
-      }
-    }
-  }
-  types: PokemonTypes[]
-  stats: PokemonStats[]
-}
+        front_default: string;
+      };
+    };
+  };
+  types: PokemonTypes[];
+  stats: PokemonStats[];
+};

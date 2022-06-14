@@ -1,4 +1,4 @@
-import colorsGlobal from '../styles/colorsGlobal'
+import colorsGlobal from '../styles/colorsGlobal';
 
 export const themes = {
   dark: {
@@ -13,4 +13,4 @@ export const themes = {
       text: colorsGlobal.black,
     },
   },
-}
+};

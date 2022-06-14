@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalLayout = createGlobalStyle`
 * {
@@ -27,4 +27,4 @@ a {
 ul {
   list-style: none;
 }
-`
+`;

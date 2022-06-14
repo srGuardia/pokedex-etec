@@ -1,16 +1,16 @@
-import { Actions, Container } from './styles'
-import logo from '../../assets/img/logo.png'
-import { Input } from '../Input'
-import { CgPokemon } from 'react-icons/cg'
-import { ThemeName } from '../../@types/theme'
+import { Actions, Container } from './styles';
+import logo from '../../assets/img/logo.png';
+import { Input } from '../Input';
+import { CgPokemon } from 'react-icons/cg';
+import { ThemeName } from '../../@types/theme';
 
-import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs'
+import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 
 type HeaderProps = {
-  handleFetch: () => void
-  handleTheme: (theme: ThemeName) => void
-  themeName: ThemeName
-}
+  handleFetch: () => void;
+  handleTheme: (theme: ThemeName) => void;
+  themeName: ThemeName;
+};
 
 export const Header = ({
   handleFetch,
@@ -31,4 +31,4 @@ export const Header = ({
       )}
     </Actions>
   </Container>
-)
+);

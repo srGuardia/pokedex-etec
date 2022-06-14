@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
   font-style: italic;
@@ -12,4 +12,4 @@ export const FooterWrapper = styled.footer`
   span {
     font-weight: 300;
   }
-`
+`;

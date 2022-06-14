@@ -1,16 +1,16 @@
-import { formatNumber } from '../../../utils/functions'
-import { PokemonData } from '../../@types/pokemon'
+import { formatNumber } from '../../../utils/functions';
+import { PokemonData } from '../../@types/pokemon';
 import {
   Container,
   Content,
   ItemsContainer,
   TextType,
   TypesContainer,
-} from './styles'
+} from './styles';
 
 type ListProps = {
-  data: PokemonData[]
-}
+  data: PokemonData[];
+};
 
 export const List = ({ data }: ListProps) => {
   return (
@@ -48,5 +48,5 @@ export const List = ({ data }: ListProps) => {
           </Content>
         ))}
     </Container>
-  )
-}
+  );
+};

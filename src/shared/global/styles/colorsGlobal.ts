@@ -15,4 +15,4 @@ export default {
   pink: '#FFB6C1',
   graySlate: '#708090',
   onyx: '#353935',
-}
+};

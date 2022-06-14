@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.input`
   width: 20rem;
@@ -13,4 +13,4 @@ export const Container = styled.input`
   &:focus {
     border-color: yellow;
   }
-`
+`;

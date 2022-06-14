@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const MainWrapper = styled.main`
   width: 100%;
@@ -7,4 +7,4 @@ export const MainWrapper = styled.main`
   overflow-x: hidden;
   overflow-y: scroll;
   padding: 1rem 0;
-`
+`;

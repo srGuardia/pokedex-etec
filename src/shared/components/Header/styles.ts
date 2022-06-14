@@ -1,5 +1,5 @@
-import styled, { keyframes } from 'styled-components'
-import colorsGlobal from '../../global/styles/colorsGlobal'
+import styled, { keyframes } from 'styled-components';
+import colorsGlobal from '../../global/styles/colorsGlobal';
 
 const rotate = keyframes`
 0% {
@@ -9,7 +9,7 @@ const rotate = keyframes`
 100% {
   transform: rotate(360deg);
 }
-`
+`;
 
 export const Container = styled.header`
   background-color: ${({ theme }) => theme.colors.background};
@@ -25,7 +25,7 @@ export const Container = styled.header`
       width: 100%;
     }
   }
-`
+`;
 
 export const Actions = styled.div`
   display: flex;
@@ -55,4 +55,4 @@ export const Actions = styled.div`
     flex-direction: column;
     gap: 2rem;
   }
-`
+`;

@@ -1,10 +1,10 @@
 export type ResponseData = {
-  name: string
-  url: string
-}
+  name: string;
+  url: string;
+};
 
 export type ApiData = {
   data: {
-    results: Array<ResponseData>
-  }
-}
+    results: Array<ResponseData>;
+  };
+};

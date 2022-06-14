@@ -1,4 +1,4 @@
-import { FooterWrapper } from './styles'
+import { FooterWrapper } from './styles';
 
 export const Footer = () => (
   <FooterWrapper>
@@ -6,4 +6,4 @@ export const Footer = () => (
       Create by <span>Breno Guardia</span>
     </strong>
   </FooterWrapper>
-)
+);

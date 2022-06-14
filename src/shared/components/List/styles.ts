@@ -1,10 +1,10 @@
-import styled, { css } from 'styled-components'
-import colorsGlobal from '../../global/styles/colorsGlobal'
+import styled, { css } from 'styled-components';
+import colorsGlobal from '../../global/styles/colorsGlobal';
 
 type StyledProps = {
-  type?: string
-  isMarginLeft?: boolean
-}
+  type?: string;
+  isMarginLeft?: boolean;
+};
 
 export const Container = styled.ul`
   display: flex;
@@ -12,7 +12,7 @@ export const Container = styled.ul`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-`
+`;
 
 export const Content = styled.li`
   overflow: hidden;
@@ -23,7 +23,7 @@ export const Content = styled.li`
   &:hover {
     transform: scale(1.1);
   }
-`
+`;
 
 export const ItemsContainer = styled.a<StyledProps>`
   width: 20rem;
@@ -100,7 +100,7 @@ export const ItemsContainer = styled.a<StyledProps>`
       font-size: 1.6rem;
     }
   }
-`
+`;
 
 export const TypesContainer = styled.div`
   width: 100%;
@@ -116,7 +116,7 @@ export const TypesContainer = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
-`
+`;
 
 export const TextType = styled.span<StyledProps>`
   width: 6rem;
@@ -135,4 +135,4 @@ export const TextType = styled.span<StyledProps>`
         margin-left: 2rem;
       }
     `}
-`
+`;
